@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Frederiks Logbog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Frederik</a>
+            <a href="informatik.html" class="active">INF</a>
+            <a href="matematik.html">MAT</a>
+            <a href="dansk.html">DAN</a>
+            <a href="engelsk.html">ENG</a>
+            <a href="Biotek.html">BIO</a>
+            <a href="so.html">SO</a>
+            <a href="Sus Snus/index.html">sus snus</a>
+            <a href="flappybird-clone-main-kopi/beginnerversion/index.html">Flappybird spil</a>
+            <a href="fullstackdemo-master/index.html">Secret messege Database</a>
+            <a href="Techsupport.html">support</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+           
+        <div class="content" id="informatik">
+            <div class="element left">
+                <h2>Informatik Noter</h2>
+
+                <!-- Note-knap start -->
+                <button class="accordion">HTML Noter</button>
+                <div class="panel">
+                <p>
+                    HTML er til at definere indholdet på en hjemmeside.
+                    <br><br>
+                    Her er et link: 
+                    <br>
+                    https://www.w3schools.com/html/html_intro.asp
+                </p>
+                </div>
+                <!-- Note-knap slut-->
+
+                <button class="accordion">Css </button>
+                <div class="panel">
+                <p>
+                CSS er brugt til udseende, når du vil bestemmer placering af forskellige objekter er det CSS du skal have fat i, det er her du definere højde, størrelse, bredde og så videre.
+                 vi har selv brugt CSS i vores logbog, fx når vi skulle udskifte billederne fra logbogs eksemplet 
+            
+                </p>
+                </div>
+
+                <button class="accordion">HTTP</button>
+                <div class="panel">
+                   <p>i HTTP er der 4 væsentlige metoder at huske. 
+                       <br>
+                       Get, Post, Put og Delete.
+                       <br> 
+                       Get: denne metode bliver oftest brugt til at hente data. 
+                       <br>
+                       Post: denne metode bliver oftest brugt til at indsætte data 
+                       <br>
+                       put: denne metode bliver oftest brugt til at opdatere allerede eksisterende data
+                       <br>
+                       Delete: denne metode giver lidt sig selv, men det bliver brugt til at slette data igen.
+                    </p>
+            </div>
+            </div>
+            <div class="element left">
+                <h2>Informatik Projekter</h2>
+                <button class="accordion">Sus Snus projekt </button>
+                <div class="panel">
+                    <p>
+                        undervejs i informatik har vi skullet lave et kodningsprojekt.
+                        Her valgte vi at lave et spil. vi tog princippet fra googles t-rex spil og lavede til vores egen. 
+                        her brugte vi både JS og Html 
+                        <br><br>
+                        her er et link til vores spil
+                        <br>
+                        file:///Users/brguer/Downloads/Sus%20Snus/index.html
+                    </p>
+                    </div>
+
+                <button class="accordion">flappy bird</button>
+                <div class="panel">
+                <p>her har vi arbejdet med specielt "loops" og "arrays" og generalt bare opbygning
+                    <br><br>
+                vi har ikke lagt det store fokus på udseende men mere terorien om at køre fejlfinding og gentagelser.
+            <br><br>
+        som her specielt kommer til udtryk i "diamonds" og "coins" hvor vi har kørt forskellige variabler osv.
+    <Br><br> vi har brugt koder som "let diamondTimeSinceLastSpawn = diamondSpawnInterval" og andre lignende </p>
+                </div>
+
+                <button class="accordion">entity relationship diagram</button>
+                <div class="panel">
+                <p> det vigtige her at forstå er at det er hvordan faserne "snakker sammen"
+                    <br><br>
+                for at vise sammenhængen mellem fasene bruger vi "primary keys" og "secondary keys"
+            <br><br>
+        en primary key kan kun lægge i egen faser og en foreign key fortæller om en anden fases primary key </p>
+                </div>
+            </div>
+
+        
+        <script src="script.js"></script>
+    </body>
+</html>
